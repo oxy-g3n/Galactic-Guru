@@ -1,0 +1,66 @@
+.services-container {
+    padding: 1.5rem;
+  }
+  
+  .service-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-card img {
+    height: 15rem;
+    object-fit: cover;
+  }
+  
+  .modal-dialog {
+    max-width: 90%; /* Adjusted modal width */
+  }
+  
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .modal-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Space between image and text */
+  }
+  
+  .modal-text {
+    text-align: justify;
+    margin-bottom: 20px; /* Space between text and button */
+  }
+  
+  .modal-button {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .modal-dialog {
+      max-width: 95%; /* Adjust width for smaller screens */
+    }
+    
+    .modal-body {
+      padding: 15px;
+    }
+  
+    .modal-image img {
+      margin-bottom: 15px;
+    }
+  
+    .modal-text {
+      margin-bottom: 15px;
+    }
+  
+    .modal-button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.custom-navbar {
+  background-color: #343a40; /* Dark background color */
+  padding: 1rem 0;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* White brand text */
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff; /* White nav link text */
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #00bfff; /* Light blue on hover */
+}
+
+.custom-navbar .nav-link.active {
+  font-weight: bold; /* Make active link bold */
+  color: #00bfff; /* Light blue for active link */
+  border-bottom: 2px solid #00bfff; /* Add a bottom border for active link */
+}
